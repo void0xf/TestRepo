@@ -7,7 +7,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   function handleCount() {
-    setCount((count) => count + 8);
+    setCount((count) => count + 16);
   }
 
   return (
