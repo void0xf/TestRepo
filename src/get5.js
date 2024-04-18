@@ -1,3 +1,3 @@
 export default function get5() {
-  return 6;
+  return 5;
 }
