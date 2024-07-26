@@ -22,6 +22,9 @@ function App() {
   function hanldeCount6() {
     setCount((count) => count * 6);
   }
+  function hanldeCount7() {
+    setCount((count) => count * 6 * 7);
+  }
 
   return (
     <>
