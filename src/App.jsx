@@ -13,6 +13,9 @@ function App() {
   function hanldeCount2() {
     setCount((count) => count * 2);
   }
+  function hanldeCount3() {
+    setCount((count) => count * 3);
+  }
 
   return (
     <>
@@ -26,7 +29,7 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <div className="card">
-        <button onClick={hanldeCount2}>count is {count}</button>
+        <button onClick={hanldeCount3}>count is {count}</button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
