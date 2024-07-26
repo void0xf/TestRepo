@@ -10,6 +10,9 @@ function App() {
   function handleCount() {
     setCount((count) => count + 16);
   }
+  function hanldeCount2() {
+    setCount((count) => count * 2);
+  }
 
   return (
     <>
